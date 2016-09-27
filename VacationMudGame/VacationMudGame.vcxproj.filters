@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{1adaf858-0199-44ed-8c01-8e57075bff52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{218a04e7-ea55-4160-b763-1eaa4b906159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\UI">
+      <UniqueIdentifier>{8bc6afe7-86e9-4cef-aa75-6f1a9680655a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Graphics">
+      <UniqueIdentifier>{bab1ba2e-0552-4c0e-8f81-6c7adfe69038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Input">
+      <UniqueIdentifier>{9e17c09f-5f92-49d1-abcf-4bf13c043416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Actor">
+      <UniqueIdentifier>{580705ad-c04e-411f-8af4-5eed0a58bbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Actor\ActionImpl">
+      <UniqueIdentifier>{775549f9-d218-4411-9392-1c56477212d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Manager">
+      <UniqueIdentifier>{6f039da3-5d35-4a97-860e-837934bca482}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VacationMudGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleGraphics.cpp">
+      <Filter>소스 파일\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGrid.cpp">
+      <Filter>소스 파일\System\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>소스 파일\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractActor.cpp">
+      <Filter>소스 파일\System\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCharacter.cpp">
+      <Filter>소스 파일\System\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>소스 파일\System\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveImpl.cpp">
+      <Filter>소스 파일\System\Actor\ActionImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>소스 파일\System\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleGraphics.h">
+      <Filter>소스 파일\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="conmanip.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="rlutil.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGrid.h">
+      <Filter>소스 파일\System\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatable.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>소스 파일\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractActor.h">
+      <Filter>소스 파일\System\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacter.h">
+      <Filter>소스 파일\System\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>소스 파일\System\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>소스 파일\System\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveImpl.h">
+      <Filter>소스 파일\System\Actor\ActionImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>소스 파일\System\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
